@@ -35,3 +35,81 @@
 
 ---
 
+## 💻 Milestone 2: Core API Functionality & Integration (Nov Wks 1-4) 🚀
+
+### What we'll do
+> We will implement the essential **Read** and **Admin Write** operations to manage game content. This involves building the public endpoints (`/releases`, `/games/{id}`) and the administrative **CRUD** for game data. We will also begin integrating the frontend to display this core data.
+
+### Deliverables
+1.  **Public Read Endpoints:** Working API endpoints for `GET /releases` and `GET /games/{id}`.
+2.  **Admin CRUD:** Full administrative **CRUD** functionality (`POST`, `PUT`, `DELETE` for `/games`) implemented and tested against the database.
+3.  **Frontend Calendar:** The main landing page is built and successfully fetches/displays the list of games from the `/releases` endpoint.
+4.  **Seed Data:** A runnable **Seed Script** created to populate the database with sample data for demonstration.
+
+### Checklists
+* [ ] Implement **GET /releases** and **GET /games/{id}** endpoints.
+* [ ] Implement all **Admin CRUD** endpoints (`POST`, `PUT`, `DELETE` for `/games`).
+* [ ] Build core front-end components for viewing the release calendar.
+* [ ] Integrate the front-end to consume the public read endpoints.
+* [ ] Create and test the **Seed Script**.
+* [ ] Use **feature branches** for all new development work.
+
+---
+
+## 🔒 Milestone 3: User Interaction & Security (Nov Wks 1-4) 💬
+
+### What we'll do
+> This phase completes all user-facing interactive features, including **User Authentication**, **Favoriting**, and the **Commenting** system. The focus is on security, ensuring all endpoints are protected based on the user's role (Guest, Registered, Admin).
+
+### Deliverables
+1.  **Authentication System:** Fully functional User Registration (`POST /users`) and Login/Logout functionality.
+2.  **Interactive Endpoints:** Working API endpoints for **Favoriting Games** and **Commenting on Games**.
+3.  **Security Implementation:** All Admin and Registered User modification endpoints are secured with authentication middleware.
+4.  **Updated UI:** Frontend forms and logic for user login, registration, and commenting are implemented.
+
+### Checklists
+* [ ] Implement **User Registration** and **Login/Logout** endpoints.
+* [ ] Implement **Favoriting** feature logic and endpoint.
+* [ ] Implement **Commenting** feature logic and endpoint.
+* [ ] Apply authentication middleware to secure all relevant endpoints.
+* [ ] Test security rules to prevent unauthorized data access/modification.
+* [ ] Update **`api.yaml`** with required security schemes documentation.
+
+---
+
+## 4️⃣ Milestone 4: Testing & Refinement (Nov Wk 4 - Dec Wk 2) 🧪
+
+### What we'll do
+> The final development and QA push. We will implement essential features like **Search and Filtering** and conduct a comprehensive round of testing to polish the application, eliminate all critical bugs, and optimize performance before final deployment. This period allows ample time for quality assurance.
+
+### Deliverables
+1.  **Advanced Features:** Fully functional **Search and Filtering** tools implemented on both the API and front-end.
+2.  **Quality Assurance (QA):** A documented list of major bugs found during testing, along with solutions and verified fixes.
+3.  **Validated Documentation:** The final API documentation is cross-validated against the live code base.
+
+### Checklists
+* [ ] Implement **Search/Filtering** feature on the API level.
+* [ ] Integrate **Search/Filtering** UI elements on the front-end.
+* [ ] Execute comprehensive **QA Test Plan** (functional, security, and performance testing).
+* [ ] Validate that all **error responses** (400/404) are accurate and consistent.
+* [ ] Refine UI/UX for responsiveness and visual appeal.
+
+---
+
+## 5️⃣ Milestone 5: Final Deployment & Submission (Nov Wk 4 - Dec Wk 2) 📦
+
+### What we'll do
+> The project concludes with **deployment to a live server** and the preparation of all materials necessary for the final project demonstration and presentation, covering the end of November and the first two weeks of December.
+
+### Deliverables
+1.  **Live Application:** The VGB application successfully **deployed** and accessible via a persistent live URL.
+2.  **Presentation Materials:** Final presentation slides and a demonstration script prepared.
+3.  **Final Submission:** The main repository URL is submitted by the Group Leader, alongside any final required documentation.
+
+### Checklists
+* [ ] Finalize and upload all required Project Documentation (Final Report).
+* [ ] Deploy the application to a live server.
+* [ ] Test live application for final operational functionality.
+* [ ] Prepare the final presentation slides and live demo script.
+* [ ] **Group Leader:** Submit the final main repository URL.
+
