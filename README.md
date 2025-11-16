@@ -19,7 +19,7 @@
 
 | Name | 
 | :--- |
-| Earl Allen D. Uy | 
+| **Earl Allen D. Uy** | 
 | **** | 
 | **** | 
 | **** |
